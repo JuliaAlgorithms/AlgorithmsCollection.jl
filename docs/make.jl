@@ -15,12 +15,12 @@ makedocs(;
         "Home" => "index.md",
         "Guide" => "man/guide.md",
         "Algorithms" => Any[
+            "Bit Manipulation" => "man/BitManipulation.md",
+            "Dynamic Programming" => "man/DynamicProgramming.md",
+            "Graph" => "man/Graph.md",
+            "Number Theory" => "man/NumberTheory.md",
             "Sorting and Searching" => "man/SortingAndSearching.md",
             "String and Arrays" => "man/StringsAndArrays.md",
-            "Graph" => "man/Graph.md",
-            "BITS" => "man/Bits.md",
-            "Dynamic Programming" => "man/DynamicProgramming.md",
-            "Number Theory" => "man/NumberTheory.md",
         ],
     ],
 )

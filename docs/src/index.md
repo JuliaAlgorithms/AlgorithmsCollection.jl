@@ -15,12 +15,12 @@ The `ClassicAlgorithmsCollections.jl` is initially inspired by [Geeksforgeeks' T
 Pages = [
     "man/guide.md",
     "man/filler.md",
-    "man/SortingAndSearching.md",
-    "man/StringsAndArrays.md",
-    "man/Graph.md",
-    "man/Bits.md",
+    "man/BitManipulation.md",
     "man/DynamicProgramming.md",
+    "man/Graph.md",
     "man/NumberTheory.md",
+    "man/StringsAndArrays.md",
+    "man/SortingAndSearching.md",
 ]
 Depth = 2
 ```
