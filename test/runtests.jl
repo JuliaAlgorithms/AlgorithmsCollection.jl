@@ -34,7 +34,7 @@ end
     W_1 = 50
     W_2 = 10
     @test AlgorithmsCollection.knapsack_solver(val, wt, W_1) == 340
-    @test AlgorithmsCollection.knapsack_solver(val, wt, W_2) == 60
+    @test AlgorithmsCollection.knapsack_solver(val, wt, W_2) == 0
 end
 
 @testset "Graph Theory" begin
