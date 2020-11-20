@@ -26,7 +26,7 @@
 - [Usage](#usage)
 - [Example](#example)
 - [Requirements](#requirements)
-- [TODO](../TODO.md)
+- [TODO](TODO.md)
 - [Contributing](CONTRIBUTING.md)
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgement)
