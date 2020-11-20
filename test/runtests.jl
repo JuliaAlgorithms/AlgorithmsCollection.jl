@@ -19,22 +19,22 @@ end
     arr = [8, 1, 2, 12, 45, 100, 43]
     @test AlgorithmsCollection.lcs_length("AGGTAB", "GXTXAYB") == 4
     arr = [10, 22, 9, 33, 21, 50, 41, 60]
-    AlgorithmsCollection.lis_length(arr) == 5
+    @test AlgorithmsCollection.lis_length(arr) == 5
     str1 = "sunday"
     str2 = "saturday"
-    AlgorithmsCollection.minumum_operations(str1, str2) == 3
-    AlgorithmsCollection.number_of_steps(8, 3) == 81
+    @test AlgorithmsCollection.minumum_operations(str1, str2) == 3
+    @test AlgorithmsCollection.number_of_steps(8, 3) == 81
     set = [3, 34, 4, 12, 5, 2]
     sum_true = 9
     sum_false = 19
-    AlgorithmsCollection.subset_sum_test(set, sum_true) == true
-    AlgorithmsCollection.subset_sum_test(set, sum_false) == false
+    @test AlgorithmsCollection.subset_sum_test(set, sum_true) == true
+    @test AlgorithmsCollection.subset_sum_test(set, sum_false) == false
     val = [60, 100, 120, 230, 220]
     wt = [10, 20, 25, 30, 25]
     W_1 = 50
     W_2 = 10
-    AlgorithmsCollection.knapsack_solver(val, wt, W_1) == 340
-    AlgorithmsCollection.knapsack_solver(val, wt, W_2) == 60
+    @test AlgorithmsCollection.knapsack_solver(val, wt, W_1) == 340
+    @test AlgorithmsCollection.knapsack_solver(val, wt, W_2) == 0
 end
 
 @testset "Graph Theory" begin
