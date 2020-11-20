@@ -1,7 +1,7 @@
 name = "AlgorithmsCollection"
 uuid = "9ff941b3-d743-4c60-9dd5-2748db76006b"
 authors = ["Julia-Algorithms <Julia-Algorithms@gmail.com>", "Anselm Hahn <Anselm.Hahn@gmail.com> and contributors"]
-version = "0.1.0"
+version = "0.1.1"
 
 [compat]
 julia = "1.5"
