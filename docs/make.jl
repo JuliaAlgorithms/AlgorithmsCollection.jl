@@ -27,4 +27,5 @@ makedocs(;
 
 deploydocs(; repo="github.com/Julia-Algorithms/AlgorithmsCollection.jl",
     versions=["stable" => "v^", "v#.#", "dev" => "dev"],
+    devbranch = "main",
     push_preview=true,)
